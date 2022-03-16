@@ -177,6 +177,7 @@ class myNode():
     #TODO: Main code that contains the aplication
     self.planner = Planner()
     self.planner.addObstacles()
+    
     for i in range(3):
       goal = self.getGoal("pick")
       current_box = goal.goal
